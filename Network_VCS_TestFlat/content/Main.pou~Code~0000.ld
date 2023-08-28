@@ -17,6 +17,22 @@
     </data>
    </addData>
   </leftPowerRail>
+  <leftPowerRail localId="8" height="4" width="3" executionOrderId="1">
+   <position x="11" y="16" />
+   <connectionPointOut formalParameter="7">
+    <relPosition x="3" y="2" />
+    <addData>
+     <data name="linkInformation" handleUnknown="preserve">
+      <linkInformation executionOrderId="1" localId="7" />
+     </data>
+    </addData>
+   </connectionPointOut>
+   <addData>
+    <data name="objectInformation" handleUnknown="preserve">
+     <objectInformation networkId="2" subNetworkId="0" />
+    </data>
+   </addData>
+  </leftPowerRail>
   <contact localId="1" height="4" width="18" executionOrderId="2">
    <position x="16" y="8" />
    <connectionPointIn>
@@ -38,6 +54,30 @@
    <addData>
     <data name="objectInformation" handleUnknown="preserve">
      <objectInformation networkId="1" subNetworkId="0" />
+    </data>
+   </addData>
+  </contact>
+  <contact localId="9" height="4" width="18" executionOrderId="2">
+   <position x="16" y="16" />
+   <connectionPointIn>
+    <relPosition x="0" y="2" />
+    <connection refLocalId="8" formalParameter="7">
+     <position x="16" y="18" />
+     <position x="14" y="18" />
+     <addData>
+      <data name="connectionInformation" handleUnknown="preserve">
+       <connectionInformation useAutoConnector="false" useUserConnector="false" implicitMultiRouted="false" invisible="false" wasExplicitFeedback="false" />
+      </data>
+     </addData>
+    </connection>
+   </connectionPointIn>
+   <connectionPointOut>
+    <relPosition x="18" y="2" />
+   </connectionPointOut>
+   <variable>Boolean2</variable>
+   <addData>
+    <data name="objectInformation" handleUnknown="preserve">
+     <objectInformation networkId="2" subNetworkId="0" />
     </data>
    </addData>
   </contact>
@@ -65,6 +105,30 @@
     </data>
    </addData>
   </coil>
+  <coil localId="10" height="4" width="18" executionOrderId="3">
+   <position x="36" y="16" />
+   <connectionPointIn>
+    <relPosition x="0" y="2" />
+    <connection refLocalId="9">
+     <position x="36" y="18" />
+     <position x="34" y="18" />
+     <addData>
+      <data name="connectionInformation" handleUnknown="preserve">
+       <connectionInformation useAutoConnector="false" useUserConnector="false" implicitMultiRouted="false" invisible="false" wasExplicitFeedback="false" />
+      </data>
+     </addData>
+    </connection>
+   </connectionPointIn>
+   <connectionPointOut>
+    <relPosition x="18" y="2" />
+   </connectionPointOut>
+   <variable>Boolean3</variable>
+   <addData>
+    <data name="objectInformation" handleUnknown="preserve">
+     <objectInformation networkId="2" subNetworkId="0" />
+    </data>
+   </addData>
+  </coil>
   <rightPowerRail localId="5" height="4" width="3" executionOrderId="4">
    <position x="56" y="8" />
    <connectionPointIn>
@@ -87,6 +151,31 @@
    <addData>
     <data name="objectInformation" handleUnknown="preserve">
      <objectInformation networkId="1" subNetworkId="0" />
+    </data>
+   </addData>
+  </rightPowerRail>
+  <rightPowerRail localId="12" height="4" width="3" executionOrderId="4">
+   <position x="56" y="16" />
+   <connectionPointIn>
+    <relPosition x="0" y="2" />
+    <connection refLocalId="10">
+     <position x="56" y="18" />
+     <position x="54" y="18" />
+     <addData>
+      <data name="connectionInformation" handleUnknown="preserve">
+       <connectionInformation useAutoConnector="false" useUserConnector="false" implicitMultiRouted="false" invisible="false" wasExplicitFeedback="false" />
+      </data>
+     </addData>
+    </connection>
+    <addData>
+     <data name="linkInformation" handleUnknown="preserve">
+      <linkInformation executionOrderId="4" localId="11" />
+     </data>
+    </addData>
+   </connectionPointIn>
+   <addData>
+    <data name="objectInformation" handleUnknown="preserve">
+     <objectInformation networkId="2" subNetworkId="0" />
     </data>
    </addData>
   </rightPowerRail>
