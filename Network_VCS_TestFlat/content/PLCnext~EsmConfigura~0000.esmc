@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EsmConfiguration id="49ab59d0-6b8a-41ab-a17a-b5cb4dd9e44a" version="2" importRevision="1">
+	<Esms>
+		<Esm id="61fa1dbd-9b88-42ac-8e0b-c7f53b4fecba" name="ESM1" cpuAffinity="1" timerInterval="500000" taskSchedulerMode="" comment="" readonly="False" />
+	</Esms>
+	<Tasks>
+		<Task id="ec7f14e1-74b9-41c5-964b-f71739623cda" name="Cyclic100" taskType="CyclicTask" priority="0" intervalTime="100000000" watchdogTime="100000000" executionTimeThreshold="0" coreAffinity="0" stackSize="0" taskBuffer="None" comment="" esmId="61fa1dbd-9b88-42ac-8e0b-c7f53b4fecba" readonly="False">
+			<ProgramInstances>
+				<ProgramInstance id="27967dc6-bf6f-4a12-8489-85989374024c" name="MainInstance" programType="Main" componentId="00000000-0000-0000-0000-000000000000" libraryName="Arp.Plc.Eclr" componentName="Arp.Plc.Eclr" componentType="EclrComponent" comment="" readonly="False" groupName="" />
+			</ProgramInstances>
+		</Task>
+	</Tasks>
+</EsmConfiguration>

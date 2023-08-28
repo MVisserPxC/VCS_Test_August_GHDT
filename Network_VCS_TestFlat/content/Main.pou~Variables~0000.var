@@ -1,0 +1,14 @@
+{ CustomGroupDefinition('a04e0da4-75a3-431c-a769-2ffcda83b779', '') }
+
+VAR
+    Boolean1 : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('3b695931-2dcc-47f9-b674-34f524da21a1')};
+    Boolean2 : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('748bd6cd-f906-4599-9bb3-ac41803efd45')};
+    Boolean3 : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('666d3b8d-f130-460a-b846-e82cae972230')};
+    Boolean4 : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('c3ae3917-6077-423a-b711-4ce8fdcef13b')};
+    Boolean5 : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('6d508b43-0025-4826-9711-523a34a5fedc')};
+    Boolean6 : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('c96f9dd1-4c5d-4d3b-a1b5-8c1792c30406')};
+    Boolean7 : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('a285d848-88f1-4950-afca-c5972c737a83')};
+    Boolean8 : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('6b7e7402-9732-4657-afbc-3c7b53dfa77f')};
+    Boolean9 : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('292bc1b6-d5f6-41fc-b33a-58b07f61802d')};
+    Boolean10 : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('bfb937d4-88ad-4277-8561-37ca5a61bbd4')};
+END_VAR
